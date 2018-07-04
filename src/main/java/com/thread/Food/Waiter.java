@@ -8,6 +8,9 @@ package com.thread.Food;
  **/
 public class Waiter extends Thread {
 
+    /**
+     * 共用一个KFC
+     */
     KFC kfc;
 
     public Waiter(KFC kfc) {
